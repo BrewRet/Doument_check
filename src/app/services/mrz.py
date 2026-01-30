@@ -12,4 +12,3 @@ def verify(date_of_birth: str, doc_number: str, mrz: str) -> int:
         return 1
     return 0
 
-print(verify("22.08.1977", "0525 185673", "PNRUS<<IVANOV<<IVAN<<IVANOVICH<<<<<<<<<<<<<<\n0521856730RUS7708220M4510220<<<<<<<<<<<<<<44"))
