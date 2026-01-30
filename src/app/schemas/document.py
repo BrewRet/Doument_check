@@ -1,5 +1,4 @@
 from datetime import date
-from typing import Optional
 from pydantic import BaseModel, Field, field_validator
 from re import compile, match
 
@@ -44,4 +43,7 @@ class DocumentSend(BaseModel):
         if v is not doc_number_pattern.match(v):
             raise ValueError("Некоррктный номер документа")
         return v
-    
+
+
+class DocumentResponce(BaseModel):
+    verificated : bool
