@@ -1,0 +1,15 @@
+# Основные настройки
+app_name: "User Document Check Service"
+app_version: "1.0.0"
+debug: false
+
+# Логирование: DEBUG, INFO, WARNING, ERROR, CRITICAL
+log_level: "INFO"
+
+# Сервер
+host: "0.0.0.0"
+port: 8080
+
+# Redis
+redis_host: "redis"
+redis_port: 6379
